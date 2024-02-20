@@ -69,7 +69,7 @@ class _MainContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const textStyle = TextStyle(fontSize: 60, fontWeight: FontWeight.bold);
+    const textStyle = TextStyle(fontSize: 60, fontWeight: FontWeight.bold, color: Colors.black);
     return SafeArea(
       bottom: false,
       child: Column(
